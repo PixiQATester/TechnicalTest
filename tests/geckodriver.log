@@ -1,0 +1,37 @@
+1657834984951	geckodriver	INFO	Listening on 127.0.0.1:52460
+1657834988039	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52461" "-no-remote" "-profile" "C:\\Users\\PIXIMIND\\AppData\\Local\\Temp\\rust_mozprofileGDB9kL"
+1657834988340	Marionette	INFO	Marionette enabled
+1657834988345	Marionette	INFO	Listening on port 52466
+WebDriver BiDi listening on ws://localhost:52461
+1657834988613	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\PIXIMIND\\AppData\\Local\\Temp\\rust_mozprofileGDB9kL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52461/devtools/browser/73907c00-3123-4880-8ded-8f13b79818ae
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://shop.demoqa.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://shop.demoqa.com"
+1657835117002	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1657835237143	Marionette	INFO	Stopped listening on port 52466
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1657835313485	geckodriver	INFO	Listening on 127.0.0.1:52557
+1657835316579	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52558" "-no-remote" "-profile" "C:\\Users\\PIXIMIND\\AppData\\Local\\Temp\\rust_mozprofile8f5EKM"
+1657835316870	Marionette	INFO	Marionette enabled
+1657835316873	Marionette	INFO	Listening on port 52563
+WebDriver BiDi listening on ws://localhost:52558
+1657835317166	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\PIXIMIND\\AppData\\Local\\Temp\\rust_mozprofile8f5EKM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52558/devtools/browser/097556ec-68e1-4bd9-9728-0b8bdc04e079
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://shop.demoqa.com"
+1657835403139	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://shop.demoqa.com"
+1657835465335	Marionette	INFO	Stopped listening on port 52563
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:332:29
+
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

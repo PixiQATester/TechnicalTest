@@ -1,0 +1,25 @@
+[{
+  "fake_data" : 1,
+  "country": ["France"],
+  "town" : ["Paris", "New York", "Roma"],
+  "state" : ["Kerkennah", "National", "Napoly"],
+  "zip" : ["48250", "48251", "48252"],
+  "phone" : ["55998866", "98003366", "44662255"]
+},
+{
+  "fake_data" : 2,
+  "country": ["India"],
+  "town" : ["Cairo", "Chelsea", "Barcelone"],
+  "state" : ["Houdan", "Chicago", "Nice"],
+  "zip" : ["500072", "500074", "500076"],
+  "phone" : ["55998867", "98003367", "44662256"]
+},
+  {
+  "fake_data" : 3,
+  "country": ["China"],
+  "town" : ["Toronto", "Basel", "Casablanca"],
+  "state" : ["Wahran", "Santorini", "Montana"],
+  "zip" : ["90210", "90310", "90510"],
+  "phone" : ["55998868", "98003368", "44662257"]
+}
+]
